@@ -38,11 +38,11 @@ const smsGateway = require('dialog-sms-service');
 
 > **Note:-** Please contact [**Dialog Axiata PLC**](https://www.dialog.lk/browse/businessWithSubLevels.jsp?id=onlinefld70074) in order to obtain following fields.
 
-| Field    | Description                                               |
-| -------- | --------------------------------------------------------- |
-| Username | User name for the Dialog SMS gateway account.             |
-| Password | Password for the Dialog SMS gateway account.              |
-| mask     | Text that appears as the sender of SMS. **Eg:-** PIZZAHUT |
+| Field    | Description                                                   |
+| -------- | ------------------------------------------------------------- |
+| Username | User name for the Dialog SMS gateway account.                 |
+| Password | Password for the Dialog SMS gateway account.                  |
+| mask     | Text that appears as the sender of the SMS. **Eg:-** PIZZAHUT |
 
 #### set configurations for the SMS gateway
 
@@ -66,13 +66,13 @@ await smsGateway.setConfig({
 #### Send SMS
 
 ```javascript
-await smsGateway.sendSMS(Phone Number ,Message content);
+await smsGateway.sendSMS(Phone Number ,Message);
 ```
 
-| Field           | Description                                                                                                                                                                                                                                                 |
-| --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Phone Number    | _Required_. A String. Phone number/s which will need to receive SMS. the phone number needs to either start with 0 or 94 (do not use +94). If there are multiple receivers make sure to add them as comma (,) separated text. Eg :- '0771111111,0712222222' |
-| Message content | _Required_. A String. The content of the SMS goes here.                                                                                                                                                                                                     |
+| Field        | Description                                                                                                                                                                                                                                                 |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Phone Number | _Required_. A String. Phone number/s which will need to receive SMS. the phone number needs to either start with 0 or 94 (do not use +94). If there are multiple receivers make sure to add them as comma (,) separated text. Eg :- '0771111111,0712222222' |
+| Message      | _Required_. A String. The content of the SMS goes here.                                                                                                                                                                                                     |
 
 ## Licence
 
