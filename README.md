@@ -34,7 +34,7 @@ const smsGateway = require('dialog-sms-service');
 
 ## How to work
 
-####First needs to contact Dialog Axiata PLC to get credentials for the SMS gateway.
+#### First needs to contact Dialog Axiata PLC to get credentials for the SMS gateway.
 
 > **Note:-** Please contact [**Dialog Axiata PLC**](https://www.dialog.lk/browse/businessWithSubLevels.jsp?id=onlinefld70074) in order to obtain following fields.
 
@@ -74,6 +74,7 @@ await smsGateway.sendSMS(Phone Number ,Message content);
 | Phone Number    | _Required_. A String. Phone number/s which will need to receive SMS. the phone number needs to either start with 0 or 94 (do not use +94). If there are multiple receivers make sure to add them as comma (,) separated text. Eg :- '0771111111,0712222222' |
 | Message content | _Required_. A String. The content of the SMS goes here.                                                                                                                                                                                                     |
 
-##Licence
+## Licence
+
 (The MIT License)
 Copyright (c) 2021 kmkasunmadushanka@gmail.com
