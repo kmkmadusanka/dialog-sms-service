@@ -1,0 +1,14 @@
+{
+  "name": "dialog-sms-service",
+  "version": "1.0.0",
+  "description": "Javascript library for send sms using dialog SMS gateway",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kasun Madusanka",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
