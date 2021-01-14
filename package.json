@@ -3,11 +3,17 @@
   "version": "1.0.1",
   "description": "Javascript library for send sms using dialog SMS gateway",
   "main": "index.js",
+  "keywords": [
+    "Dialog sms gateway",
+    "Sri Lankan sms gateway",
+    "Dialog e sms",
+    "RichCommunicationTM sms"
+  ],
   "scripts": {
     "test": "echo \"No test specified\""
   },
   "author": "Kasun Madusanka",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1"
   }
