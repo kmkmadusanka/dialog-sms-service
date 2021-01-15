@@ -16,5 +16,9 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmkmadusanka/dialog-sms-service.git"
   }
 }
