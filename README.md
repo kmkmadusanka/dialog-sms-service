@@ -1,6 +1,6 @@
 # Dialog SMS Service
 
-![](https://img.shields.io/badge/Release-1.1.0-green)
+![](https://img.shields.io/badge/Release-1.1.2-green)
 
 **JavaScript library to send SMS through Dialog telecommunication service**
 
@@ -59,7 +59,7 @@ await smsGateway.setConfig({
 | Field        | Description                                                                                                                    |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------ |
 | user         | _Required_. Username that will provided by Dialog.                                                                             |
-| mask         | _Required_. A String. SMS sender ID. **Eg:-** test (For the test account)                                                      |
+| mask         | _Required_. A String. SMS sender ID.Mask value provided by Dialog. **Eg:-** test (For the test account)                        |
 | digest       | _Required_. [md5 encripted](https://www.md5hashgenerator.com/) values of password. {digest = md5(password provided by dialog)} |
 | campaignName | _Optional_. Campaign name to be used in reporting.                                                                             |
 
