@@ -1,6 +1,6 @@
 # Dialog SMS Service
 
-![](https://img.shields.io/badge/Release-1.1.2-green)
+![](https://img.shields.io/badge/Release-1.1.3-green)
 
 **JavaScript library to send SMS through Dialog telecommunication service**
 
