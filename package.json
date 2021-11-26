@@ -1,6 +1,6 @@
 {
   "name": "dialog-sms-service",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Javascript library for send sms using dialog SMS gateway",
   "main": "index.js",
   "keywords": [
